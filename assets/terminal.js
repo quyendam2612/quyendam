@@ -787,7 +787,7 @@ var Terminal = Terminal || function(containerId) {
       output('<p>Documentation: type "help"</p>');
 
       if (!!!window.requestFileSystem) {
-        output('<div>Sorry! The FileSystem APIs are not available in your browser.</div>');
+        // output('<div>Sorry! The FileSystem APIs are not available in your browser.</div>');
         return;
       }
 
