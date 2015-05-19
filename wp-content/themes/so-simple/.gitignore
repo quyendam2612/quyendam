@@ -1,0 +1,8 @@
+.DS_STORE
+.DS_Store
+node_modules
+npm-debug.log
+release
+.codekit-cache
+.idea
+config.codekit
