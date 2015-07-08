@@ -3547,6 +3547,11 @@ p.logged-in-as {
 }
 
 /* QuyenDam: customisation */
+#disqus_thread {
+    background: #fff;
+    padding: 30px;
+}
+
 .container .single-post-pagination {
     background-color: #fff;
     padding: 20px;
