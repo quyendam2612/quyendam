@@ -1,0 +1,5 @@
+
+Fatal error: Uncaught exception 'Exception' with message 'couldn't connect to host' in /var/www/html/cgv-room-filter.php:96
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/cgv-room-filter.php on line 96

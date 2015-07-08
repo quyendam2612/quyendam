@@ -16,13 +16,15 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+//define('WP_CACHE', true); //Added by WP-Cache Manager
+define( 'WPCACHEHOME', '/var/www/html/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
 define('DB_NAME', 'wp_quyendam');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'blog');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'XCxDmC4rsT4Ldz');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -68,7 +70,7 @@ $table_prefix  = 'qd_';
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
  */
-define('WP_DEBUG', true);
+#define('WP_DEBUG', true);
 define('FS_METHOD', 'direct');
 
 /* That's all, stop editing! Happy blogging. */

@@ -39,6 +39,7 @@
 		
 		<div id="page" class="hfeed site">
 			
+			<?php if(!checkAndroidDevice()): ?>
 			<header class="site-header">
 				
 			    <div class="menu-icon">
@@ -69,5 +70,6 @@
 					<?php endif; ?>
 				</div>
 			</header>
+			<?php endif; ?>
 			
 			<div id="content" class="site-content">
