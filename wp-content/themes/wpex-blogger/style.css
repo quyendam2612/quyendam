@@ -3561,3 +3561,78 @@ p.logged-in-as {
     text-shadow: 2px 2px 2px rgb(60, 60, 60);
     color: #fff;
 }
+
+/**************** CGV ****************/
+.cgv-page .hentry {
+    padding: 20px;
+}
+
+#result .room .row {
+    clear: both;
+}
+
+#result .room .row .image {
+    width: 20%;
+    float: left;
+}
+
+#result .room .row > span {
+    font-weight: bold;
+    color: red;
+}
+
+#result .room .row .session {
+    width: 80%;
+    float: left;
+}
+
+#result .room .row .session .detail {
+    width: 120px;
+    float: left;
+    margin-left: 10px;
+}
+
+#result .room .row .session .detail .time,
+#result .room .row .session .detail .image,
+#result .room .row .session .detail .title {
+    font: 400 14px/20px 'Merriweather', serif;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.mobile-app .android {
+    width: 120px;
+}
+
+@media screen and (min-width: 414px) and (max-width: 1000px) {
+    #result .room .row .image {
+        width: 200px;
+        float: left;
+        margin-bottom: 5px;
+    }
+
+    #result .room .row .session {
+        width: 100%;
+        float: left;
+    }
+}
+
+@media (max-width: 414px) {
+    #result .room .row .session {
+        width: 100%;
+        float: left;
+    }
+
+    #result .room .row .session .detail {
+        width: 50%;
+        float: left;
+        margin-left: 0;
+    }
+
+    #result .room .row .image {
+        width: 100%;
+        float: left;
+        margin-bottom: 5px;
+    }
+}
